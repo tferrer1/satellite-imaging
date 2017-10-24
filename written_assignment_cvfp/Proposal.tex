@@ -1,0 +1,31 @@
+\documentclass[]{report}
+
+\usepackage{hyperref}
+% Title Page
+\title{EN.601.661 Computer Vision \\Final Project Proposal\\ ``Crop Analysis from Satellite Images"}
+\author{Tomas Ferrer-Deheza, Sachith Sri Ram Kothur, Chandraja Dharmana}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+	For our final project we intend to perform analysis on a time series of satellite images of agricultural crops. The goal is to be able to derive conclusions given a dated satellite image of a field: the type of crop (wheat, corn, and soybean) and the expected yield at harvest time.\\\\
+	Our problem is two-fold: a supervised classification problem for the crop identification process, and a linear regression one for prediction the expected yield. The plan is to build a convolutional neural network and train it with a dataset of images paired with the date, type of crop, and yield for that year.\\\\
+	In principle, we will have to build the dataset ourselves, since at the time of writing we have not found an existing dataset with our requirements. The images will be downloaded from Planet.com, a satellite imaging company which kindly shares images for education and research purposes. The yield information will be obtained from the United States Department of Agriculture, which provides this information periodically.\\
+	
+	Sources: 
+	\begin{enumerate}
+		\item \href{https://www.planet.com/markets/monitoring-for-precision-agriculture/}{Planet.com}
+		\item \href{https://www.nass.usda.gov/}{USDA - National Agricultural Statistics Service}
+	\end{enumerate}
+	
+	
+	
+\end{abstract}
+
+
+\begin{abstract}
+\end{abstract}
+
+\end{document}          
